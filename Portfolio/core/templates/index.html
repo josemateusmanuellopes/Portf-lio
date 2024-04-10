@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+   {%load static%}
+
+ {%block content %}
+
+   <!-- page header Cabecalho -->
+    {% include "header.html" %}
+   <!-- end of page header -->
+
+    <!-- Sobre section -->
+    {% include "sobre.html"%}
+   <!-- end of about section -->
+
+    <!-- serviços section -->
+    {%include "servico.html"%}
+   <!-- end of service section -->
+
+    <!-- portfólio section -->
+    {%include "portfolio.html"%}
+    <!-- end of portfolio section -->
+
+    <!-- contratar  section -->
+    {%include "contratar.html"%}
+    <!-- end of section -->
+
+    <!-- depoimentos section -->
+    {%include "depoimento.html"%}
+    <!-- end of testimonial section -->
+
+    <!-- blog section -->
+    {%include "blog.html"%}
+   <!-- end of blog section -->
+
+    <!-- contactos section -->
+    {%include "contacto.html"%}
+    <!-- end of contact section -->
+
+    <!-- footer -->
+    {%include "footer.html"%}
+     <!-- end of page footer -->
+
+    {%endblock%}
+
+    
